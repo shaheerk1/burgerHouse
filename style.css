@@ -1,0 +1,603 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.main-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+.sub-container{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+
+}
+
+.first-section{
+    background-image: url("./resources/background-Banner.jpg");
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+}
+
+.navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.logo {
+    padding-left: 20px;
+}
+.delivery-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links a{
+    color: rgb(66, 32, 11);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerImage{
+    width: 500px;
+    top: 30px;
+}
+
+.leftPart{
+    color: rgb(66, 32, 11);
+    margin: auto;
+}
+
+.rightPart{
+    margin: auto;
+
+}
+
+.titleUpperText{
+    padding: 10px;
+    border: dotted 1px rgb(66, 32, 11);
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.subTitle{
+    font-size: 3rem;
+}
+
+
+/*-------------------s2-----------------------------*/
+
+.seconSection{
+    width: 100vw;
+    height: 80vh;
+}
+.s2innerWrap{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.s2Left{
+    position: relative;
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: end;
+}
+
+.s2Left img {
+    width: 96%;
+    border-radius: 20px;
+}
+
+.s2LeftText{
+    position: absolute;
+   margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.s2Right {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+width: 100%;
+gap: 20px;
+}
+
+
+
+.s2rTop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+
+}
+
+.s2RTopText{
+    position: absolute;
+   margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+
+.s2rTop img {
+    width: 100%;
+    border-radius: 20px;
+}
+.s2rBottom{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.s2RBottomText{
+    position: absolute;
+   margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.s2rBottom img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/*-------------------s3-----------------------------*/
+
+.thirdSection{
+    width: 100vw;
+    height: 100vh;
+}
+
+.upperPart{
+height: 30%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10%
+}
+
+.mediumText{
+    padding: 15px;
+    background-color: rgb(247, 197, 36);
+    color: rgb(66, 32, 11);
+    border-radius: 2px;
+
+}
+.largeText{
+    color: rgb(66, 32, 11);
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+.smallText{
+    color: rgb(66, 32, 11);
+    font-size: smaller;
+    padding: 0 50px;
+    text-align: center;
+}
+.lowerPart{
+height: 70%;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.burgerCard{
+    color: rgb(66, 32, 11);
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.burgerCard img{
+    width: 200px;
+}
+
+.burgerName{
+    padding: 15px;
+    font-weight: 600;
+}
+
+.burgerDescription{
+    text-align: center;
+    font-size: smaller;
+    padding: 0 ;
+}
+
+.orderButton{
+    padding: 12px;
+    background-color: rgb(194, 75, 39);
+    border-radius: 2px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*-------------------s4-----------------------------*/
+
+.fourthSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bigCard{
+  width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.bigCardInnerWrapper{
+    display: flex;
+    padding: 2%;
+
+}
+
+.bigCardText{
+    width: 55%;
+}
+
+.BCText1{
+    color: rgb(97, 97, 97);
+}
+
+.BCTitle{
+    margin: 15px 0;
+    color: rgb(66, 32, 11);
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+.BCDescription{
+    color: rgb(66, 32, 11);
+    font-size: smaller;
+    padding: 0 50px 0 0 ;
+    text-align: left;
+}
+
+.bigCardImg {
+    width: 45%;
+}
+
+.bigCardImg img {
+    width: 100%;
+}
+/*-------------------s5-----------------------------*/
+
+.fifthSection{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fifthInnerWrap {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifthMediumText{
+    padding: 5px;
+    color: rgb(66, 32, 11);
+}
+
+.fifthLargeText{
+    color: rgb(66, 32, 11);
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.fifthSection img{
+    position: absolute;
+}
+
+.floatingImg1{
+    width: 300px;
+    left: 1%;
+    top: 2%;
+}
+.floatingImg2{
+    width: 150px;
+    left: 10%;
+    top: 45%;
+}
+.floatingImg3{
+    width: 350px;
+    left: 80%;
+    top: 40%;
+}
+
+.fifthUpperPart{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthLowerPart {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 240px;
+    height: 20px;
+    padding:10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(97, 97, 97);
+}
+
+.formButton{
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    width: 260px;
+    height: 40px;
+}
+
+.formButton:hover{
+    cursor: pointer;
+}
+
+/*-----------------------6th---------------------*/
+
+.sixthSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footerCard{
+    color: white;
+    height: 70%;
+    position: relative;
+    width: 90%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+      
+  }
+
+  .footerImage{
+      z-index: -100;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+  }
+
+
+  
+  .footerCardInnerWrapper{
+      display: flex;
+      height: 85%;
+      padding: 2%;
+  
+  }
+  
+  .footerCardText{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 55%;
+  }
+  
+  
+  .footerCardDescription{
+      font-size: smaller;
+      padding: 0 50px 0 0 ;
+      text-align: left;
+  }
+
+  .footerLogo{
+      width: 250px;
+  }
+  
+  .copyRightText{
+      font-size: small;
+  }
+
+  .footerCardLinks{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
+  }
+
+  .footerCardLinks img{
+      width: 20px;
+  }
+
+  .footerLink{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+@media only screen and (max-width: 950px) {
+
+    .leftPart{
+        display: none;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 8px;
+        flex-direction: column;
+    }
+
+    .navigations{
+        padding-left: 40px;
+    }
+
+    .bannerImage{
+        padding-top: 110px;
+    }
+
+    .floatingImg1{
+        width: 250px;
+        left: 70%;
+        top: 2%;
+    }
+    .floatingImg2{
+        width: 110px;
+        left: 2%;
+        top: 65%;
+    }
+    .floatingImg3{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .thirdSection{
+        height: 160vh;
+    }
+
+    .fifthLowerPart {
+        flex-direction: column;
+        height: 60%;
+    }
+
+    .fifthUpperPart {
+        height: 40%;
+      
+    }
+    .footerCardInnerWrapper{
+        flex-direction: column;
+    
+    }
+
+    .footerCard{
+        height: 95%;  
+      }
+
+      .footerCardLinks{
+        padding-left: 0;
+    }
+    
+    .footerLogo{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    
+    .s2innerWrap{
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 0;
+        
+    }
+
+    .seconSection{
+        height: 100vh;
+    }
+
+    .s2rTop{
+       max-height: 98px;
+    
+    }
+
+    .bigCardInnerWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 2%;
+    
+    }
+    
+    .bigCardText{
+        width: 100%;
+    }
+    
+    
+    .bigCardImg {
+        width: 100%;
+    }
+
+    
+}
