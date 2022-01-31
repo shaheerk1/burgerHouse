@@ -96,7 +96,7 @@ a {
 
 /*-------------------s2-----------------------------*/
 
-.seconSection{
+.secondSection{
     width: 100vw;
     height: 80vh;
 }
@@ -573,7 +573,7 @@ input{
         
     }
 
-    .seconSection{
+    .secondSection{
         height: 100vh;
     }
 
@@ -600,4 +600,63 @@ input{
     }
 
     
+}
+
+@media only screen and (max-width: 420px) {
+
+    .bannerImage{
+        width: 400px;
+        top:0;
+        padding-top: 250px;
+    }
+    
+    .leftPart{
+        color: rgb(66, 32, 11);
+        margin: auto;
+    }
+    
+    .rightPart{
+        margin: auto;
+    
+    }
+    
+
+    .s2innerWrap{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        
+    }
+
+    .secondSection{
+        height: 100vh;
+    }
+
+    .s2Left{
+        height: 40%;
+    }
+
+    .s2Right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+        width: 100%;
+        gap: 10px;
+        }
+
+    .s2rTop{
+       height: 100%;
+
+    }
+    .s2rTop img{
+       height: 100%;
+
+    }
+    .s2rBottom{
+       height: 100%;
+    
+    }
+
+
 }
